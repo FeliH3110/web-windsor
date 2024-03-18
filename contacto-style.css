@@ -51,7 +51,41 @@ header nav a:hover{
 }
 
 /*------------ FIN HEADER------------*/
+/*------------ MAIN------------*/
 
+.separador-seccion{
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    background-color: #F8F1D8;
+    height: 50px;
+    margin: 20px 0 20px 0;
+    padding-top: 20px;
+}
+
+.vinculos-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vinculo-wsp, .vinculo-instagram{
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.mapa{
+    margin-bottom: 310px;
+}
+
+iframe{
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+/*------------ FIN MAIN------------*/
 /*------------FOOTER------------*/
 footer{
     display: flex;
