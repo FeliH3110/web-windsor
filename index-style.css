@@ -53,15 +53,29 @@ header nav a:hover{
 
 /*------------ FIN HEADER------------*/
 
-
+/*------------ MAIN ------------*/
 main {
 align-items: center;
 }
+
+.section-ubicacion h2{
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    background-color: #F8F1D8;
+    height: 50px;
+    margin: 20px 0 20px 0;
+    padding-top: 20px;
+    
+}
+
 iframe{
     justify-content: center;
     margin-left: 10%;
 }
 
+
+/*------------ FIN MAIN------------*/
 /*------------FOOTER------------*/
 footer{
     display: flex;
