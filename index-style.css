@@ -1,0 +1,122 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*------------HEADER------------*/
+
+header{
+    display: flex;
+    min-height: 150px;
+    background: #06534D;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 200px;
+    margin-left: 20px;
+}
+
+header nav a{
+    font-size:35px;
+    padding-right:40px;
+    transition: 200ms;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover{
+    color: #F8F1D8;
+    text-shadow:black;
+    text-shadow: 100px;
+}
+
+/*configuracion responsive para pantallas pequeñas*/
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+
+    header nav{
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+}
+
+/*------------ FIN HEADER------------*/
+
+
+main {
+align-items: center;
+}
+iframe{
+    justify-content: center;
+    margin-left: 10%;
+}
+
+/*------------FOOTER------------*/
+footer{
+    display: flex;
+    min-height: 150px;
+    background: #06534D;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer img{
+    height: 100px;
+    display: flex;
+    margin-left: 30px;
+}
+
+footer h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #F8F1D8
+}
+
+.texto-footer{
+    width: auto;
+    align-items: center;
+
+}
+
+.logo-red-social{
+    height: 50px;
+}
+
+.vinculo-red-social{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-right: 30px;
+}
+.logo-red-social:hover{
+    filter: invert(89%) sepia(30%) saturate(277%) hue-rotate(327deg) brightness(107%) contrast(94%);
+    transition: 300ms;
+}
+
+footer a{
+    font-size:20px;
+    padding-right:10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: #F8F1D8;
+    transition: 300ms;
+}
+/*------------ FIN FOOTER------------*/
