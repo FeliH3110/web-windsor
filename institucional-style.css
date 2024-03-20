@@ -70,16 +70,31 @@ footer img{
     margin-left: 30px;
 }
 
-footer h2{
-    font-size: 20px;
+.texto-footer h2{
+    font-size: 25px;
     font-weight: bold;
     color: #F8F1D8
+}
+
+.texto-footer p{
+    color: #F8F1D8
+}
+
+.texto-footer p a{
+    text-decoration: none;
+    color:#F8F1D8;
+}
+
+.texto-footer p a:hover{
+    font-weight: bold;
+    transition: 300ms;
 }
 
 .texto-footer{
     width: auto;
     align-items: center;
-
+    text-align: center;
+    line-height: 30px
 }
 
 .logo-red-social{
@@ -92,12 +107,12 @@ footer h2{
     align-content: center;
     margin-right: 30px;
 }
-.logo-red-social:hover{
+footer .logo-red-social:hover{
     filter: invert(89%) sepia(30%) saturate(277%) hue-rotate(327deg) brightness(107%) contrast(94%);
     transition: 300ms;
 }
 
-footer a{
+footer .vinculo-red-social a{
     font-size:20px;
     padding-right:10px;
     text-decoration: none;
