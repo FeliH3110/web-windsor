@@ -66,21 +66,21 @@ header nav a:hover{
 .vinculos-contacto{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-evenly;
 }
 
-.vinculo-wsp, .vinculo-instagram{
+.vinculo-wsp, .vinculo-instagram, .vinculo-facebook{
     margin: 20px;
     text-align: center;
 }
 
-.vinculo-wsp img, .vinculo-instagram img{
+.vinculo-wsp img, .vinculo-instagram img, .vinculo-facebook img{
     margin-bottom: 10px;
     height: 60px;
     
 }
 
-.vinculo-wsp a, .vinculo-instagram a{
+.vinculo-wsp a, .vinculo-instagram a, .vinculo-facebook a{
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -91,7 +91,7 @@ main .logo-red-social:hover{
     transition: 300ms;
 }
 
-.vinculo-wsp a:hover, .vinculo-instagram a:hover{
+.vinculo-wsp a:hover, .vinculo-instagram a:hover, .vinculo-facebook a:hover{
     font-weight: bold;
     transition: 300ms;
 }
@@ -133,7 +133,7 @@ label{
     width: 30%;
     height: 30px;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 #boton-enviar:hover{
