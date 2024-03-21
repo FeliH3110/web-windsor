@@ -96,9 +96,9 @@ main .logo-red-social:hover{
     transition: 300ms;
 }
 
-.mapa{
+/*.mapa{
     margin-bottom: 310px;
-}
+}*/
 
 iframe{
     justify-content: center;
@@ -106,9 +106,58 @@ iframe{
     margin-bottom: 30px;
 }
 
-.formulario-contacto form input{
-    display: inline-block;
+.formulario-contacto{
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #06534D;
+    width: 70%;
+} 
+
+.formulario-contacto:hover{
+    border: 2px solid #06534D;
+    transition: 300ms;
+    background-color: #F8F1D8;
+} 
+
+label{
+    font-size: 20px;
 }
+
+#boton-enviar{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    background-color: #06534D;
+    color: #F8F1D8;
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#boton-enviar:hover{
+    color: #06534D;
+    background-color: #F8F1D8;
+    transition: 300ms;
+}
+
+.div-formulario-contacto > input,.div-formulario-contacto > textarea{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.div-formulario-contacto > input{
+    height: 30px;
+}
+
+.div-formulario-contacto fieldset legend{
+    margin-bottom: 10px;
+}
+
 /*------------ FIN MAIN------------*/
 
 /*------------FOOTER------------*/
