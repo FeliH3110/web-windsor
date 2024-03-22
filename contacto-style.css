@@ -63,7 +63,14 @@ header nav a:hover{
     padding-top: 20px;
 }
 
+.separador-seccion:hover{
+    letter-spacing: 5px;
+    transition: 400ms;
+    transition-delay: 500ms;
+}
+
 .vinculos-contacto{
+    background: url(imagenes/Instituto/pexels-fwstudio-129731.jpg);
     display: flex;
     align-items: center;
     justify-content:space-evenly;

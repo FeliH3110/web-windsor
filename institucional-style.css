@@ -82,6 +82,15 @@ header nav a:hover{
     margin-bottom: 20px;
 }
 
+.equipo{
+    display: flex;
+    justify-content: center;
+}
+.equipo img{
+    width: 50%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
 
 /*------------FIN MAIN------------*/
 
@@ -94,7 +103,6 @@ footer{
     justify-content: space-between;
     position: absolute;
     width: 100%;
-    bottom: 0;
 }
 
 footer img{
